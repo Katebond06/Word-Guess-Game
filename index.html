@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Word Guess</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="jumbotron jumbotron-fluid bg-dark text-center text-light">
+        <h1 class="heading">Word Guess</h1>
+        <h4>type any letter to begin</h4>
+      </div>
+      <div class="container">
+        <div id="target">
+          <div id="guesses"></div>
+          <div id="wrong-guesses"></div>
+          <div id="wins"></div>
+          <divs id="losses"></divs>
+          <div id="solved-word"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
